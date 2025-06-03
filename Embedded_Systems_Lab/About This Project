@@ -1,0 +1,73 @@
+# 🚘 Robot Car
+
+Hello there!
+
+This is a project I created along with my teammates as the final assignment for one of our **Embedded Systems** lab courses at university.
+
+The project is a **robot car** that can be controlled wirelessly using a custom-made controller. It supports **multiple operation modes**, each demonstrating different embedded control techniques:
+
+
+## 🔁 Modes of Operation
+
+### 🚗 **Control Mode**
+In this mode, the robot is manually controlled via a custom-built controller.
+
+- The controller is built using an **Arduino Uno** and a **Bluetooth module**.
+- Directional control is achieved using a **joystick**.
+- Commands are sent wirelessly to the robot for real-time control.
+
+---
+
+### ⚫ **Line Follower Mode**
+- The robot uses **grayscale sensors** to detect and follow a black line on the ground automatically.
+- No user input is required once the mode is activated.
+
+---
+
+### 🚧 **Obstacle Avoidance Mode**
+- In this autonomous mode, the robot moves forward while avoiding collisions.
+- It uses distance sensing to detect obstacles and navigate around them intelligently.
+
+
+
+## 🎮 The Custom Controller
+
+The controller was designed with both functionality and flexibility in mind. It includes:
+
+- 🔄 **Joystick** – for directional control in manual mode  
+- 📟 **Arduino Uno** – core microcontroller  
+- 📶 **Bluetooth Module** – wireless communication with the robot  
+- 🔘 **Five Buttons**:
+  - **Speed Control** button – sets the robot's speed
+  - **Buzzer Trigger** – activates an on-board buzzer
+  - **Light Control** – turns the robot’s lights on or off
+  - **Mode Switch** – cycles between the operating modes
+  - **OK/Set Button** – confirms mode selection or settings
+
+---
+
+## 📷 Media & Demonstration
+
+> *Image in: Embedded_Systems_Lab/30-5-2024*  
+> [🎥 Watch the demo on YouTube!](https://youtu.be/CWNu9kSXxrc)
+
+---
+
+## 🛠️ Technologies Used
+
+- Arduino (Uno)
+- Bluetooth HC-05 module
+- Joystick module
+- IR Grayscale sensors
+- Ultrasonic sensor (for obstacle avoidance)
+- Buzzer, LEDs, and basic electronic components
+
+
+## 💬 Notes
+
+- This project helped us apply core embedded systems concepts in a hands-on, interactive way.
+- It demonstrates communication protocols, sensor integration, and real-time control logic.
+
+---
+
+Thanks for checking it out! 😊
